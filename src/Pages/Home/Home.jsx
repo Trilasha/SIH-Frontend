@@ -1,5 +1,5 @@
 import { Button } from "../../Components";
-import { useFetchOnAction } from "../../Hooks";
+import { useFetchOnAction } from "../Hooks";
 
 import style from "./Home.module.scss";
 

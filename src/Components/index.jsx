@@ -1,5 +1,5 @@
 import Button from "./Button/Button";
-import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
+import Draw from "./Draw/Draw";
 
-export { Button, Navbar, Footer };
+export { Button, Footer, Draw };

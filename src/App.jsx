@@ -2,12 +2,12 @@ import { Routes, Route } from "react-router-dom";
 
 import { Home, Error } from "./Pages";
 
-import { Navbar, Footer } from "./Components";
+import { Footer, Draw } from "./Components";
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Draw />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error />} />
